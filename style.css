@@ -1,0 +1,23 @@
+/* Basic styling for the menu items */
+.menu-item-card {
+    margin: 15px 0;
+}
+.menu-item-img {
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Order Preview styling */
+.order-preview {
+    border-left: 2px solid #ddd;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 25%;
+    background-color: #f8f9fa;
+}
+#orderSummary p {
+    display: flex;
+    justify-content: space-between;
+}

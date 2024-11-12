@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Menu Section -->
+        <div class="col-md-8">
+            <h2 class="text-center mt-4">Restaurant Menu</h2>
+
+            <!-- Filter Section -->
+            <div class="filters text-center my-3">
+                <button class="btn btn-outline-primary filter-btn" onclick="filterMenu('all')">All</button>
+                <button class="btn btn-outline-primary filter-btn" onclick="filterMenu('vegan')">Vegan</button>
+                <button class="btn btn-outline-primary filter-btn" onclick="filterMenu('gluten-free')">Gluten-Free</button>
+            </div>
+
+            <!-- Menu Items -->
+            <div class="row" id="menuItems">
+                <!-- Menu items will be dynamically inserted here by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Order Preview Section -->
+        <div class="col-md-4 order-preview">
+            <h4 class="text-center mt-4">Your Order</h4>
+            <div id="orderSummary" class="p-3">
+                <!-- Order items will be dynamically inserted here -->
+            </div>
+            <div class="p-3">
+                <p class="font-weight-bold" id="totalAmount">Total: $0.00</p>
+                <button class="btn btn-success btn-block" onclick="confirmOrder()">Confirm Order</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
