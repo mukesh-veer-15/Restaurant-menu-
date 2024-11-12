@@ -5,13 +5,13 @@ This is a single-page restaurant menu application where users can view and add i
 
 
 # Table of Contents
-<sup>Features</sup>
-<sup>Technologies Used</sup>
-Installation
-Usage
-Project Structure
-Contributing
-License
+Features.
+Technologies Used.
+Installation.
+Usage.
+Project Structure.
+Contributing.
+License.
 
 
 # Features
